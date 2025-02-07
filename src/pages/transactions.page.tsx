@@ -1,13 +1,9 @@
-// rota para transações
-// Aqui é feito o Crud frank
+import FormTransactions from "../components/transactions/FormTransactions"
 
 function Transactions() {
     return (
-        <div>
-            <h1>Transações</h1>
-            <div>
-                Essas são as transações
-            </div>
+        <div className="bg-zinc-900 min-h-screen text-white">
+            <FormTransactions />
         </div>
     )
 }
